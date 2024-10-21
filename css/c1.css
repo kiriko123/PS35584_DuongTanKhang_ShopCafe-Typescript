@@ -1,0 +1,101 @@
+/* General styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Product categories */
+#listCategories > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#listCategories > div > div {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+/* Product list */
+#listProducts > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#listProducts > div > div {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+/* Brand list */
+#listBrands > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#listBrands > div > div {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+/* Service list */
+#listServices > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#listServices > div > div {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
